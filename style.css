@@ -4,7 +4,6 @@
 body{
   color:#555;
   margin:0;
-
   font-family: 'Montserrat', sans-sans-serif;
 }
 
@@ -32,10 +31,6 @@ body{
   float: left;
   font-size: 20px;
   font-weight: bold;
-}
-
- .post :nth-child(even){
-  background: grey;
 }
 
 #header-nav{
@@ -80,6 +75,10 @@ a:hover{
   text-align: center;
 }
 
+.post-container:nth-child(even){
+  background: LightGray;
+}
+
 
 .post-author img, .about-author img{
   border-radius: 50%;
@@ -103,6 +102,8 @@ h1, h2, h3, h4{
 p{
   line-height: 1.2;
 }
+
+
 
 /*FOOTER SPECIFIC*/
 #footer{
